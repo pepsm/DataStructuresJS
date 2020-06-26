@@ -1,4 +1,4 @@
-function Set(){
+function mySet(){
 
     var collection = [];
 
@@ -82,8 +82,8 @@ function Set(){
     }
 }
 
-var setA = new Set();
-var setB = new Set();
+var setA = new mySet();
+var setB = new mySet();
 
 setA.add('a');
 setB.add('b');
