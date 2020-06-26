@@ -46,5 +46,9 @@ function PriorityQueue (){
 var pq = new PriorityQueue();
 pq.enqueue(['Beau Carnes', 2]);
 pq.enqueue(['Quincy Larson', 3]);
+pq.enqueue(['John Smith', 1]);
 
+pq.printCollection();
+pq.dequeue();
+pq.front();
 pq.printCollection();
